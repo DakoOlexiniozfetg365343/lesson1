@@ -4,11 +4,19 @@ class Person:
   isMale = True
   name = "Sasha"
 
+  def __init__(self, name, age):
+    self.name = name
+    self.age = age
+    
 
 
+
+
+  
 me = Person()
 friend = Person()
 
-print(me)
-friend.name = "Kolia"
-print (friend.name)
+friend.age = 15
+friend.height = 100
+print (friend.height)
+print (friend.age)
