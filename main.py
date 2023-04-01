@@ -18,6 +18,11 @@ class Person:
      time.sleep(1)
      self.money += 50
      days -= 1
+
+  def rest(self, days):
+    while days != 0:
+      self.money -= 100
+      days -= 1
     
     
 
@@ -38,8 +43,10 @@ print (friend2.height)
 print (friend3.isMale)
 
 print (me.money)
-me.work(2)
-print (me.money)
+me.work(3)
+print ("Ви заробили", me.money, "money")
+me.rest(1)
+print(me.money)
 
 
 
