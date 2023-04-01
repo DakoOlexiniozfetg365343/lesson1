@@ -5,3 +5,10 @@ class Person:
   name = "Sasha"
 
 
+
+me = Person()
+friend = Person()
+
+print(me)
+friend.name = "Kolia"
+print (friend.name)
