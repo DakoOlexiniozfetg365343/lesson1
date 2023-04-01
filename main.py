@@ -46,7 +46,7 @@ print (me.money)
 me.work(3)
 print ("Ви заробили", me.money, "money")
 me.rest(1)
-print(me.money)
+print("У вас забрали злі дяді", me.money, "money")
 
 
 
